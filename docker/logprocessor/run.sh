@@ -14,3 +14,9 @@ cd "${MELPA_REPO}"
    --db /mnt/db/download_log_stable_full.db \
    --jsondir html-stable \
    /mnt/store/log-stable/melpa.access.log
+
+# Snapshot
+/usr/bin/python ${MELPA_REPO}/docker/logprocessor/process_log.py \
+   --db /mnt/db/download_log_snapshot_full.db \
+   --jsondir html-snapshot \
+   /mnt/store/log-snapshot/melpa.access.log
