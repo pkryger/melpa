@@ -12,6 +12,11 @@
 /download_log_stable.json.gz
 /elpa
 /epkgs
+/html-release/archive.json
+/html-release/build-status.json
+/html-release/download_counts.json
+/html-release/recipes.json
+/html-release/updates.rss
 /html-snapshot/archive.json
 /html-snapshot/build-status.json
 /html-snapshot/download_counts.json
@@ -27,6 +32,7 @@
 /html/download_counts.json
 /html/recipes.json
 /html/updates.rss
+/packages-release/
 /packages-snapshot/
 /packages-stable/
 /packages/

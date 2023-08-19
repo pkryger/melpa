@@ -20,3 +20,9 @@ cd "${MELPA_REPO}"
    --db /mnt/db/download_log_snapshot_full.db \
    --jsondir html-snapshot \
    /mnt/store/log-snapshot/melpa.access.log
+
+# Release
+/usr/bin/python ${MELPA_REPO}/docker/logprocessor/process_log.py \
+   --db /mnt/db/download_log_release_full.db \
+   --jsondir html-release \
+   /mnt/store/log-release/melpa.access.log
